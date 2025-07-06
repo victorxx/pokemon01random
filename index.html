@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="Seu Nome ou Empresa" />
+  <meta name="language" content="Portuguese" />
+  <meta http-equiv="Content-Language" content="pt-br" />
+  <meta name="revisit-after" content="7 days" />
+  <meta name="rating" content="General" />
+  <meta name="distribution" content="Global" />
+
+  <title>Sabrina do Pokémon - Vídeos e Momentos Épicos</title>
+  <meta name="description" content="Assista aos melhores vídeos da Sabrina, a especialista em Pokémon. Momentos épicos, batalhas e curiosidades para os fãs." />
+  <meta name="keywords" content="Sabrina Pokémon, vídeos Pokémon, Sabrina ginásio, batalhas Pokémon, anime Pokémon, momentos Pokémon" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sabrina do Pokémon - Vídeos e Momentos Épicos" />
+  <meta property="og:description" content="Assista aos melhores vídeos da Sabrina, a especialista em Pokémon. Momentos épicos, batalhas e curiosidades para os fãs." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://seudominio.com/sabrina-pokemon.html" />
+  <meta property="og:image" content="https://seudominio.com/imagens/sabrina-pokemon-thumbnail.jpg" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Sabrina do Pokémon" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sabrina do Pokémon - Vídeos e Momentos Épicos" />
+  <meta name="twitter:description" content="Assista aos melhores vídeos da Sabrina, a especialista em Pokémon. Momentos épicos, batalhas e curiosidades para os fãs." />
+  <meta name="twitter:image" content="https://seudominio.com/imagens/sabrina-pokemon-thumbnail.jpg" />
+  <meta name="twitter:site" content="@seutwitter" />
+  <meta name="twitter:creator" content="@seutwitter" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Sabrina do Pokémon - Vídeos e Momentos Épicos",
+    "description": "Assista aos melhores vídeos da Sabrina, a especialista em Pokémon. Momentos épicos, batalhas e curiosidades para os fãs.",
+    "url": "https://seudominio.com/sabrina-pokemon.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Seu Nome ou Empresa",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://seudominio.com/imagens/logo.png"
+      }
+    }
+  }
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      background-color: #1a1a2e;
+      color: #f0e9ff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      position: relative;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #9b59b6;
+      text-shadow: 1px 1px 4px #4b0082;
+    }
+
+    #video-container {
+      width: 100%;
+      max-width: 800px;
+      aspect-ratio: 16 / 9;
+      margin-bottom: 15px;
+      border: 4px solid #9b59b6;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #9b59b6;
+      background: #000;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 8px;
+    }
+
+    #video-title {
+      max-width: 800px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      color: #dcd6f7;
+      text-shadow: 1px 1px 2px #4b0082;
+      min-height: 2.5em;
+    }
+
+    button {
+      background-color: #8e44ad;
+      border: none;
+      padding: 12px 28px;
+      color: #f0e9ff;
+      font-weight: 700;
+      cursor: pointer;
+      border-radius: 8px;
+      margin-bottom: 40px;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 0 10px #8e44ad;
+    }
+
+    button:hover {
+      background-color: #732d91;
+    }
+
+    #unique-string {
+      max-width: 90%;
+      background-color: #2c2c54;
+      border-radius: 12px;
+      padding: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 13px;
+      white-space: pre-wrap;
+      word-break: break-word;
+      color: #ccc;
+      user-select: text;
+      margin-top: auto;
+      box-shadow: 0 0 8px #4b0082;
+    }
+
+    #propaganda-piscante {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #9b59b6;
+      color: white;
+      font-weight: bold;
+      padding: 12px 18px;
+      border-radius: 10px;
+      font-size: 17px;
+      cursor: pointer;
+      animation: piscar 1.2s infinite alternate;
+      box-shadow: 0 0 15px #9b59b6;
+      z-index: 1000;
+      user-select: none;
+    }
+
+    @keyframes piscar {
+      0% {opacity: 1;}
+      100% {opacity: 0.3;}
+    }
+
+    @media (max-width: 600px) {
+      #video-container {
+        max-width: 100%;
+        aspect-ratio: auto;
+        height: 215px;
+      }
+      #video-title {
+        font-size: 18px;
+      }
+      #propaganda-piscante {
+        font-size: 14px;
+        padding: 10px 14px;
+        top: 10px;
+        right: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sabrina do Pokémon - Momentos Épicos</h1>
+
+  <div id="video-container"></div>
+  <div id="video-title">Carregando título...</div>
+
+  <button onclick="trocarVideo()">Trocar Vídeo</button>
+
+  <div id="unique-string">Carregando conteúdo único...</div>
+
+  <div id="propaganda-piscante" onclick="window.open('ads.html', '_blank')">
+    OFERTA IMPERDÍVEL!
+  </div>
+
+  <script>
+    const videos = [
+      {id:"1MOjNA7I98g",titulo:"pokemon red detonado completo"},
+      {id:"Px5bIWERPjE",titulo:"N64 Pokémon Stadium 2: Uma Jornada Inesquecível!"},
+      {id:"GpuQTgicLL4",titulo:"Detonado e Gampelay Pokemon Stadium Nintendo 64"},
+      {id:"BOgWtFTVbqQ",titulo:"Pokémon Red (Detonado - Parte 10) - Ginásio de Planta da Erika"},
+      {id:"vpH56Foj3ec",titulo:"pokemon stadium série 1"},
+      { id: "TYhdezzyqPo", start: 675, titulo: "Sabrina - Batalha épica aos 11:15" }
+    ];
+
+    function getRandomVideo() {
+      return videos[Math.floor(Math.random() * videos.length)];
+    }
+
+    function gerarSrcVideo(video) {
+      let src = `https://www.youtube.com/embed/${video.id}`;
+      if (video.start) {
+        src += `?start=${video.start}`;
+      }
+      return src;
+    }
+
+    function trocarVideo() {
+      const video = getRandomVideo();
+      const container = document.getElementById('video-container');
+      const tituloEl = document.getElementById('video-title');
+
+      container.innerHTML = `<iframe 
+        src="${gerarSrcVideo(video)}" 
+        allowfullscreen 
+        loading="lazy" 
+        title="${video.titulo}"
+      ></iframe>`;
+
+      tituloEl.textContent = video.titulo;
+    }
+
+    function gerarStringUnica(tamanho = 300) {
+      const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;:,.<>?';
+      let resultado = '';
+      for(let i = 0; i < tamanho; i++) {
+        resultado += chars.charAt(Math.floor(Math.random() * chars.length));
+      }
+      return resultado;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      trocarVideo();
+      document.getElementById('unique-string').textContent = gerarStringUnica();
+    });
+  </script>
+
+</body>
+</html>
